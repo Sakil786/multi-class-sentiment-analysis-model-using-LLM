@@ -91,4 +91,25 @@ I employed the PyTorch framework to create a custom class, utilizing the DataLoa
 
 ![Percentage Distribution of Sentiments](https://github.com/Sakil786/multi-class-sentiment-analysis-model-using-LLM/blob/main/image5.png)
 
+#### Metrics Explanation:
+#### Metrics Comparison
+#### Overall Accuracy:
+- BERT(Deep Learning) : 0.58
+- Traditional Machine Learning : 0.48
+- BERT has a higher overall accuracy, suggesting it’s correctly classifying more instances overall.
+#### Class-Specific Metrics:
+- Angry, Disgusted, Fearful, Sad: Both have 0.00 for all scores, indicating a persistent issue in identifying these classes with both approaches.
+- Curious to dive deeper:
+  - Precision: 0.68 (BERT) vs. 0.48 (ML)
+  - Recall: 0.73 (BERT) vs. 0.98 (ML)
+  - F1-score: 0.70 (BERT) vs. 0.63 (ML)
+  - BERT has higher precision and F1-score, suggesting better positive identification, but lower recall, potentially missing some true instances.
+- Happy, Neutral, Surprised:
+  - Generally higher precision and F1-scores for BERT, suggesting better identification of positive instances.
+  - Recall scores are mixed, with some higher and some lower for BERT.
+#### Obervation :
+- BERT shows promise with higher over all accuracy, precision and F1-scores for several classes,indicating better identification of positive instances.
+- Both models struggle with certain classes (Angry, Disgusted, Fearful, Sad), highlighting a consistent challenge.
+- The trade-offs between precision and recall for the ”Curious to dive deeper” class warrant further investigation.
+
 
