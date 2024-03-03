@@ -111,5 +111,9 @@ I employed the PyTorch framework to create a custom class, utilizing the DataLoa
 - BERT shows promise with higher over all accuracy, precision and F1-scores for several classes,indicating better identification of positive instances.
 - Both models struggle with certain classes (Angry, Disgusted, Fearful, Sad), highlighting a consistent challenge.
 - The trade-offs between precision and recall for the ”Curious to dive deeper” class warrant further investigation.
-
+#### Improvement Suggestions:
+- The choice between BERT and ML approaches depends on the specific use case and priorities for precision, recall, and overall accuracy.
+- Further exploration of hyperparameter tuning and data quality for both models could potentially improve performance.
+- Understanding the reasons for the persistent issues with specific classes could guide model refinement and feature engineering efforts.
+- Increasing the number of epochs could potentially enhance the model performance in BERT.
 
