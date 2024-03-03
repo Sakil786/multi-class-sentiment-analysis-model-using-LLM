@@ -6,3 +6,5 @@ This dataset consists of over 8000 conversations and over 184000 messages within
 ## SOLUTION
 ### DATASET
 The dataset(Topical chat .csv) exhibits class imbalance with eight categories: Angry, Curious to Dive Deeper, Disguised, Fearful, Happy, Sad, and Surprised.
+
+![Percentage Distribution of Sentiments](https://github.com/Sakil786/multi-class-sentiment-analysis-model-using-LLM/blob/main/imag1.png)
