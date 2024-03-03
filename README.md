@@ -61,3 +61,25 @@ The performance of the algorithm did not improve in both techniques.
 
 • Overall accuracy is moderate, suggesting potential for improvement.
 
+#### Randomforest Classifier
+Since our first algorithm encounters challenges with imbalanced data, I applied the class weight balancing technique to address the class imbalance problem.
+
+![Percentage Distribution of Sentiments](https://github.com/Sakil786/multi-class-sentiment-analysis-model-using-LLM/blob/main/image4.png)
+
+##### Comparison in terms of Metrics:
+##### Class-Specific Metrics Comparison:
+- **Angry, Disgusted, Fearful, Sad:** Still 0.00 in both cases, indicating a persistent issue in identifying these classes.
+- **Curious to dive deeper:**
+   - Precision: 0.48 (Randomforest) vs. 0.45 (Naive Bayes)
+   - Recall: 0.90 (Randomforest) vs. 0.93 (Naive Bayes)
+   - F1-score: 0.63 (Randomforest) vs. 0.61 (Naive Bayes)
+   - Slight improvements in precision and F1-score, but a slight decrease in recall in the Random-forest.
+ - **Happy, Neutral, Surprised:**
+   - Generally higher precision and F1-scores in the image, suggesting better identification of positive instances.
+   - Recall scores remain relatively low for these classes in both cases.
+#### Observations :
+- The Randomforest classifer show some overall improvement in accuracy and average performance.
+- The model still struggles with certain classes (Angry, Disgusted, Fearful, Sad), highlighting a consistent issue.
+- There are mixed results for the ”Curious to dive deeper” class, with trade-offs between precision and recall.
+- The improvements in precision for Happy, Neutral, and Surprised classes suggest better identification of positive instances, but recall remains a challenge 
+
