@@ -119,4 +119,6 @@ I employed the PyTorch framework to create a custom class, utilizing the DataLoa
 ## CODE
 - **Task1 MLipynb**: Please refer this notebook for Machine Learning Approach.
 - **Task1 DLipynb**: Please refer this notebook for Deep Learning Approach.
+## Explore, Appreciate, and Give the Repository a Shining ⭐
+Feel free to explore the repository and show your appreciation by giving it a star⭐! Your support means a lot! 😉
 
