@@ -81,5 +81,14 @@ Since our first algorithm encounters challenges with imbalanced data, I applied 
 - The Randomforest classifer show some overall improvement in accuracy and average performance.
 - The model still struggles with certain classes (Angry, Disgusted, Fearful, Sad), highlighting a consistent issue.
 - There are mixed results for the ”Curious to dive deeper” class, with trade-offs between precision and recall.
-- The improvements in precision for Happy, Neutral, and Surprised classes suggest better identification of positive instances, but recall remains a challenge 
+- The improvements in precision for Happy, Neutral, and Surprised classes suggest better identification of positive instances, but recall remains a challenge.
+
+### Deep Learning Approach
+As our model continues to face challenges with imbalanced classes, I experimented with a transformer based model called BERT-base-uncased to assess its performance.
+#### Implementation
+I employed the PyTorch framework to create a custom class, utilizing the DataLoader from PyTorch.Additionally, a pre-trained model from Hugging Face was invoked.Given that this is a multi-classification problem, it is necessary to specify the number of labels in the model.The CrossEntropyLoss function is employed as the loss function, given that the task involves multi-class classification.
+#### Metrics Explanation:
+
+![Percentage Distribution of Sentiments](https://github.com/Sakil786/multi-class-sentiment-analysis-model-using-LLM/blob/main/image5.png)
+
 
