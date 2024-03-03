@@ -16,3 +16,13 @@ The subsequent actions are taken in this step:
 - Converting the text to lowercase
 - Removing special characters and digits
 - Removing stop words and applying lemmatization
+## APPROACH
+Initially, we adhere to the traditional Machine learning algorithmic approach, and subsequently, we employ deep learning techniques.
+### Machine Learning Approach
+In this approach , we used two algorithms:
+- Naive Bayes Classifier
+- Randomforest Classifier
+#### Naive Bayes Classifier
+As Naive Bayes handles both categorical target variable as well as Numerical target variable.I have followed both techniques:In first technique, I have not converted target variable into numerical variable.In the second technique, I have used label encoding to convert target variable into numerical variable.
+##### Result & Metrics: 
+The performance of the algorithm did not improve in both techniques.
