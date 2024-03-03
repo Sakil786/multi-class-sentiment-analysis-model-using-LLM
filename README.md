@@ -8,3 +8,11 @@ This dataset consists of over 8000 conversations and over 184000 messages within
 The dataset(Topical chat .csv) exhibits class imbalance with eight categories: Angry, Curious to Dive Deeper, Disguised, Fearful, Happy, Sad, and Surprised.
 
 ![Percentage Distribution of Sentiments](https://github.com/Sakil786/multi-class-sentiment-analysis-model-using-LLM/blob/main/imag1.png)
+
+From the above figure, it becomes apparent that the classes Sad, Disguised, Fearful, and Angry have a notably low occurrence.The column ”message” has five records that are missing.
+## DATA PREPORCESSING AND DATA CLEANING
+The subsequent actions are taken in this step:
+- Eliminating the missing records, given that there are only five instances of such records.
+- Converting the text to lowercase
+- Removing special characters and digits
+- Removing stop words and applying lemmatization
